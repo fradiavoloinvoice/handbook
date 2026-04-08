@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fradiavolo - La Nostra Cultura</title>
+  <meta name="description" content="Chi siamo davvero. La storia, i valori, il team e il manifesto di Fradiavolo. Eat Pizza, Make Love.">
+  <meta property="og:title" content="Fradiavolo - La Nostra Cultura">
+  <meta property="og:description" content="Chi siamo davvero. La storia, i valori, il team e il manifesto di Fradiavolo. Eat Pizza, Make Love.">
+  <meta property="og:image" content="https://fradiavolopizzeria.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://fradiavolopizzeria.com/cultura">
+
+  <!-- Tailwind CSS v3 CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Adobe Typekit Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/mrc1jja.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          'roc-compressed': ['roc-grotesk-compressed', 'sans-serif'],
+          'roc': ['roc-grotesk', 'sans-serif'],
+        },
+        extend: {
+          colors: {
+            fra: {
+              red: '#A82720',
+              yellow: '#FCBC17',
+              cream: '#FEF2E0',
+              pepperwhite: '#F7F6F2',
+            },
+          },
+          animation: {
+            marquee: 'marquee 35s linear infinite',
+            marquee2: 'marquee2 35s linear infinite',
+          },
+          keyframes: {
+            marquee: {
+              '0%': { transform: 'translateX(0%)' },
+              '100%': { transform: 'translateX(-100%)' },
+            },
+            marquee2: {
+              '0%': { transform: 'translateX(100%)' },
+              '100%': { transform: 'translateX(0%)' },
+            },
+          },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    .font-roc-compressed {
+      line-height: 1;
+    }
+    .big-text {
+      font-size: 6rem;
+      line-height: 4rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: 'roc-grotesk-compressed', sans-serif;
+    }
+    @media (min-width: 768px) {
+      .big-text {
+        font-size: 12vw;
+        line-height: 10vw;
+      }
+    }
+    @media (min-width: 1024px) {
+      .big-text {
+        font-size: 8vw;
+        line-height: 8vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="border-b-2 border-black scroll-smooth">
+
+    <!-- HERO -->
+    <section
+      class="h-[93vh] md:min-h-[800px] border-b-2 border-black bg-cover bg-center flex flex-col justify-center items-center relative"
+      style="background-image: url('img/locali/fradiavolo-isola-interior.jpg');">
+      <div class="absolute inset-0 bg-fra-red/75"></div>
+      <div class="relative z-10 flex flex-col items-center w-full text-center">
+        <img src="img/logo-hb.svg" alt="Fradiavolo" class="w-[420px] md:w-[600px] max-w-[80vw] object-contain" />
+        <p class="font-roc-compressed uppercase text-fra-yellow text-5xl md:text-8xl font-bold mt-4 tracking-widest">
+          HANDBOOK
+        </p>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="relative uppercase text-6xl leading-none font-semibold pt-3 pb-2 border-b-2 border-black bg-fra-cream text-black flex overflow-hidden font-roc-compressed">
+      <div class="animate-marquee whitespace-nowrap">
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+      </div>
+      <div class="absolute animate-marquee2 whitespace-nowrap">
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+        <span class="mx-8">eat pizza make love</span>
+      </div>
+    </div>
+
+    <!-- PREMESSA -->
+    <section class="border-b-2 border-black bg-fra-yellow grid grid-cols-1 md:grid-cols-2">
+      <div class="border-b-2 md:border-b-0 md:border-r-2 border-black px-6 md:px-14 py-16 md:py-24 flex flex-col justify-center gap-6">
+        <h2 class="font-roc-compressed uppercase text-fra-red text-5xl md:text-7xl font-semibold leading-none">
+          Benvenuto<br>tra i FRA!
+        </h2>
+        <p class="font-roc text-black text-lg md:text-xl leading-relaxed">
+          Questo manuale ha l'obiettivo di accompagnarti e di guidarti nel tuo percorso quotidiano all'interno delle nostre pizzerie.
+          Consideraci il Virgilio del tuo cammino agli inferi.
+        </p>
+        <p class="font-roc text-black text-lg md:text-xl leading-relaxed">
+          Troverai delle informazioni chiare e semplici per far parte del nostro team e saper sempre come essere un vero FRA!
+        </p>
+      </div>
+      <div class="h-[50vh] md:h-auto bg-cover bg-center" style="background-image: url('img/locali/fradiavolo-alberto-chiariglione-002.jpg');"></div>
+    </section>
+
+    <!-- INDICE -->
+    <section class="border-b-2 border-black bg-[#4A9B7F] relative flex flex-col min-h-screen">
+      <div class="flex-1 grid grid-cols-1 md:grid-cols-2 items-center px-6 md:px-10 py-10 md:py-16 gap-0">
+        <!-- SX: THE MENU -->
+        <div class="flex items-end justify-start md:justify-center pb-10 md:pb-0">
+          <p class="font-roc-compressed text-fra-cream leading-none uppercase select-none"
+             style="font-size: clamp(90px, 18vw, 240px); line-height: 0.88;">
+            THE<br>MENU
+          </p>
+        </div>
+
+        <!-- DX: lista -->
+        <div class="flex flex-col gap-8">
+
+          <!-- 1. BRAND -->
+          <div>
+            <a href="#brand" class="flex items-baseline gap-3 mb-3 group">
+              <span class="font-roc-compressed text-[#1C3A2E] font-semibold text-2xl md:text-3xl leading-none">1.</span>
+              <span class="font-roc-compressed text-[#1C3A2E] font-semibold uppercase text-2xl md:text-3xl leading-none group-hover:text-fra-cream transition-colors duration-200">BRAND</span>
+            </a>
+            <ol class="list-none ml-8 flex flex-col gap-1">
+              <li>
+                <a href="#storia" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">1.</span> Storia del Brand - storyline
+                </a>
+              </li>
+              <li>
+                <a href="#valori" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">2.</span> I nostri valori
+                </a>
+              </li>
+              <li>
+                <a href="#impasti" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">3.</span> I nostri impasti
+                </a>
+              </li>
+              <li>
+                <a href="#farina" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">4.</span> La nostra farina
+                </a>
+              </li>
+              <li>
+                <a href="#fornitori" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">5.</span> I nostri fornitori
+                </a>
+              </li>
+              <li>
+                <a href="#spazi" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">6.</span> I nostri locali
+                </a>
+              </li>
+            </ol>
+          </div>
+
+          <!-- 2. RISORSE UMANE -->
+          <div>
+            <a href="#risorse-umane" class="flex items-baseline gap-3 mb-3 group">
+              <span class="font-roc-compressed text-[#1C3A2E] font-semibold text-2xl md:text-3xl leading-none">2.</span>
+              <span class="font-roc-compressed text-[#1C3A2E] font-semibold uppercase text-2xl md:text-3xl leading-none group-hover:text-fra-cream transition-colors duration-200">RISORSE UMANE</span>
+            </a>
+            <ol class="list-none ml-8 flex flex-col gap-1">
+              <li>
+                <a href="#organigramma" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">1.</span> Organigramma Pizzerie
+                </a>
+              </li>
+            </ol>
+          </div>
+
+          <!-- 3. SERVIZIO -->
+          <div>
+            <a href="#servizio" class="flex items-baseline gap-3 mb-3 group">
+              <span class="font-roc-compressed text-[#1C3A2E] font-semibold text-2xl md:text-3xl leading-none">3.</span>
+              <span class="font-roc-compressed text-[#1C3A2E] font-semibold uppercase text-2xl md:text-3xl leading-none group-hover:text-fra-cream transition-colors duration-200">SERVIZIO</span>
+            </a>
+            <ol class="list-none ml-8 flex flex-col gap-1">
+              <li>
+                <a href="#accoglienza" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">1.</span> Soddisfazione del cliente. ACCOGLIENZA
+                </a>
+              </li>
+              <li>
+                <a href="#regole-oro" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">2.</span> Regole d'oro del buon cameriere
+                </a>
+              </li>
+              <li>
+                <a href="#divisa" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">3.</span> Divisa
+                </a>
+              </li>
+              <li>
+                <a href="#step-of-service" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">4.</span> Step of service
+                </a>
+              </li>
+              <li>
+                <a href="#tecniche-vendita" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">5.</span> Tecniche di vendita - Up selling/Cross selling
+                </a>
+              </li>
+              <li>
+                <a href="#storytelling" class="font-roc text-fra-cream/90 text-base md:text-lg hover:text-white transition-colors duration-150 flex items-center gap-2">
+                  <span class="text-fra-cream/50 text-sm">6.</span> Storytelling Prodotti/Fornitori
+                </a>
+              </li>
+            </ol>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CAP. 1 - BRAND (chapter cover) -->
+    <section id="brand" class="border-b-2 border-black grid grid-cols-1 md:grid-cols-2 min-h-[70vh] overflow-hidden">
+      <div class="px-6 md:px-14 py-16 md:py-24 flex flex-col justify-center gap-8" style="background-color: #6e1c22;">
+        <p class="font-roc text-fra-cream text-xl md:text-2xl leading-relaxed">
+          Siamo Fradiavolo, una catena di pizzerie giovane e ambiziosa, con un'impronta contemporanea,
+          che combina cinque tipologie di impasto, ingredienti di qualità e tanta passione.<br>
+          <strong class="font-roc-compressed text-2xl md:text-3xl uppercase tracking-wide">Eat Pizza, Make Love è il nostro slogan.</strong>
+        </p>
+        <p class="font-roc text-fra-cream text-xl md:text-2xl leading-relaxed">
+          Il format Fradiavolo nasce dalla volontà di destrutturare il processo produttivo
+          tradizionale della pizza, con la convinzione che fosse possibile realizzare ciò in cui nessuno
+          credeva: una pizza buona, sempre uguale, replicabile all'infinito e ovunque, e servita in un
+          ambiente dalla forte personalità.
+        </p>
+      </div>
+      <div class="bg-fra-red flex items-center justify-center min-h-[300px] md:min-h-0">
+        <img src="img/eat-pizza-make-love.webp" alt="Eat Pizza Make Love" class="w-full h-full object-cover object-center">
+      </div>
+    </section>
+
+    <!-- 1.1 STORIA DEL BRAND -->
+    <section id="storia" class="border-b-2 border-black bg-fra-pepperwhite px-6 md:px-14 py-16 md:py-24">
+      <p class="font-roc-compressed text-fra-red uppercase text-2xl font-semibold mb-1">1.1</p>
+      <h3 class="font-roc-compressed uppercase text-black text-5xl md:text-7xl font-semibold leading-none mb-4">
+        Storia del Brand
+      </h3>
+      <div class="flex flex-col md:flex-row gap-0 border-t-2 border-black">
+
+        <!-- Colonna sinistra: citazione + foto -->
+        <div class="md:w-1/3 border-b-2 md:border-b-0 md:border-r-2 border-black flex flex-col">
+          <div class="p-8 border-b-2 border-black">
+            <p class="font-roc text-black/60 text-lg leading-relaxed">
+              "A volte basta un saluto a cambiare la direzione delle cose, ed è proprio il caso della storia di Fradiavolo,
+              che inizia così:<br>
+              <em class="text-black">'Buongiorno, signor D'Errico.'</em>"
+            </p>
+          </div>
+          <div class="flex-1 overflow-hidden">
+            <img src="img/handbook/img-005.webp" alt="Mauro e Gianluca, i fondatori di Fradiavolo" class="w-full h-full object-cover">
+          </div>
+        </div>
+
+        <!-- Colonna destra: timeline -->
+        <div class="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 border-l-0">
+          <!-- 2018 -->
+          <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[200px]">
+            <p class="font-roc-compressed text-fra-red uppercase text-5xl md:text-6xl font-semibold leading-none mb-6">2018</p>
+            <p class="font-roc text-black text-sm md:text-base leading-relaxed">Mauro D'Errico e Gianluca Lotta, all'epoca semplici conoscenti, rilevano una pizzeria a Genova. Fradiavolo esisteva già, ma aspettava una nuova occasione. Loro decidono di ripartire da lì, dando forma a un'idea che meritava di essere portata avanti.</p>
+          </div>
+          <!-- 2019 -->
+          <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[200px]">
+            <p class="font-roc-compressed text-fra-red uppercase text-5xl md:text-6xl font-semibold leading-none mb-6">2019</p>
+            <p class="font-roc text-black text-sm md:text-base leading-relaxed">Viene messo a punto un nuovo modello produttivo nato dall'intuizione di destrutturare il processo produttivo tradizionale, e funziona.</p>
+          </div>
+          <!-- 2020-2021 -->
+          <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[200px]">
+            <p class="font-roc-compressed text-fra-red uppercase text-5xl md:text-6xl font-semibold leading-none mb-6">2020–2021</p>
+            <p class="font-roc text-black text-sm md:text-base leading-relaxed">Inca Srl entra come socio per sostenere l'espansione in Italia e lo sviluppo del nuovo modello produttivo. Fradiavolo entra per la prima volta nella graduatoria '50 Top Pizza'.</p>
+          </div>
+          <!-- 2022 -->
+          <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[200px]">
+            <p class="font-roc-compressed text-fra-red uppercase text-5xl md:text-6xl font-semibold leading-none mb-6">2022</p>
+            <p class="font-roc text-black text-sm md:text-base leading-relaxed">Ingresso in società di GESA e MIR Capital. Fradiavolo cresce: da 8 a 18 locali in tutta Italia, con l'apertura delle prime pizzerie a Roma e l'espansione accelerata nel nord del paese.</p>
+          </div>
+          <!-- Aprile 2024 -->
+          <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[200px]">
+            <p class="font-roc-compressed text-fra-red uppercase text-5xl md:text-6xl font-semibold leading-none mb-6">Aprile 2024</p>
+            <p class="font-roc text-black text-sm md:text-base leading-relaxed">Alto Partners entra come socio di maggioranza per sostenere l'espansione in Italia e nel mondo.</p>
+          </div>
+          <!-- Settembre 2024 -->
+          <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[200px]">
+            <p class="font-roc-compressed text-fra-red uppercase text-5xl md:text-6xl font-semibold leading-none mb-6">Settembre 2024</p>
+            <p class="font-roc text-black text-sm md:text-base leading-relaxed">Un nuovo traguardo: apertura del primo locale internazionale a Miami (USA).</p>
+          </div>
+          <!-- 2025 -->
+          <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[200px]">
+            <p class="font-roc-compressed text-fra-red uppercase text-5xl md:text-6xl font-semibold leading-none mb-6">2025</p>
+            <p class="font-roc text-black text-sm md:text-base leading-relaxed">Siglato l'accordo con il gruppo GIRAUDI per aprire oltre 90 pizzerie in 10 anni in Francia. Inaugurata a novembre la prima pizzeria ad Antibes.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="relative uppercase text-6xl leading-none font-semibold pt-3 pb-2 border-b-2 border-black bg-fra-cream text-black flex overflow-hidden font-roc-compressed">
+      <div class="animate-marquee whitespace-nowrap"><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span></div>
+      <div class="absolute animate-marquee2 whitespace-nowrap"><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span></div>
+    </div>
+
+    <!-- 1.2 I NOSTRI VALORI -->
+    <section id="valori" class="border-b-2 border-black bg-fra-red px-6 md:px-14 py-16 md:py-24">
+      <p class="font-roc-compressed text-fra-yellow uppercase text-2xl font-semibold mb-1">1.2</p>
+      <h3 class="font-roc-compressed uppercase text-fra-cream text-5xl md:text-7xl font-semibold leading-none mb-16">
+        I Nostri Valori
+      </h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-t-2 border-l-2 border-black">
+        <!-- 01 Passione -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[240px]">
+          <p class="font-roc-compressed text-fra-red text-6xl font-semibold leading-none mb-4">01</p>
+          <p class="font-roc-compressed text-black uppercase text-4xl md:text-5xl font-semibold leading-tight mb-3">Passione</p>
+          <p class="font-roc text-black/70 text-sm leading-relaxed">Metterci passione così da non avere mai limiti nel migliorare la società.</p>
+        </div>
+        <!-- 02 Creatività e Innovazione -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[240px]">
+          <p class="font-roc-compressed text-fra-red text-6xl font-semibold leading-none mb-4">02</p>
+          <p class="font-roc-compressed text-black uppercase text-4xl md:text-5xl font-semibold leading-tight mb-3">Creatività e Innovazione</p>
+          <p class="font-roc text-black/70 text-sm leading-relaxed">Creare e innovare sé stessi per arrivare a cambiare e migliorare l'intero team.</p>
+        </div>
+        <!-- 03 Organizzazione -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[240px]">
+          <p class="font-roc-compressed text-fra-red text-6xl font-semibold leading-none mb-4">03</p>
+          <p class="font-roc-compressed text-black uppercase text-4xl md:text-5xl font-semibold leading-tight mb-3">Organizzazione</p>
+          <p class="font-roc text-black/70 text-sm leading-relaxed">Organizzarsi con i metodi più adatti e una disciplina che dia successo.</p>
+        </div>
+        <!-- 04 Rispetto e Fiducia -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[240px]">
+          <p class="font-roc-compressed text-fra-red text-6xl font-semibold leading-none mb-4">04</p>
+          <p class="font-roc-compressed text-black uppercase text-4xl md:text-5xl font-semibold leading-tight mb-3">Rispetto e Fiducia</p>
+          <p class="font-roc text-black/70 text-sm leading-relaxed">Un binomio che deve esistere nel gruppo, dall'inizio alla fine.</p>
+        </div>
+        <!-- 05 Trasparenza -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[240px]">
+          <p class="font-roc-compressed text-fra-red text-6xl font-semibold leading-none mb-4">05</p>
+          <p class="font-roc-compressed text-black uppercase text-4xl md:text-5xl font-semibold leading-tight mb-3">Trasparenza</p>
+          <p class="font-roc text-black/70 text-sm leading-relaxed">Essere cristallini, onesti in ogni forma di comunicazione.</p>
+        </div>
+        <!-- 06 Spirito di Squadra -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[240px]">
+          <p class="font-roc-compressed text-fra-red text-6xl font-semibold leading-none mb-4">06</p>
+          <p class="font-roc-compressed text-black uppercase text-4xl md:text-5xl font-semibold leading-tight mb-3">Spirito di Squadra</p>
+          <p class="font-roc text-black/70 text-sm leading-relaxed">Non si accettano i fenomeni da copertina, ma si ama condividere le coppe.</p>
+        </div>
+        <!-- 07 Autocritica -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[240px]">
+          <p class="font-roc-compressed text-fra-red text-6xl font-semibold leading-none mb-4">07</p>
+          <p class="font-roc-compressed text-black uppercase text-4xl md:text-5xl font-semibold leading-tight mb-3">Autocritica</p>
+          <p class="font-roc text-black/70 text-sm leading-relaxed">Essere autocritici così da poter giudicare propositivamente.</p>
+        </div>
+        <!-- 08 Formazione -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col min-h-[240px]">
+          <p class="font-roc-compressed text-fra-red text-6xl font-semibold leading-none mb-4">08</p>
+          <p class="font-roc-compressed text-black uppercase text-4xl md:text-5xl font-semibold leading-tight mb-3">Formazione</p>
+          <p class="font-roc text-black/70 text-sm leading-relaxed">Essere consapevoli di essere in continua formazione, così come i propri colleghi. Nessuno è «completo». E se si sa, si condivide.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAP. 2 - RISORSE UMANE (chapter cover) -->
+    <section id="risorse-umane" class="border-b-2 border-black bg-fra-red grid grid-cols-1 md:grid-cols-2 min-h-[60vh]">
+      <div class="border-b-2 md:border-b-0 md:border-r-2 border-black px-6 md:px-14 py-16 md:py-24 flex flex-col justify-between gap-8">
+        <div>
+          <p class="font-roc-compressed text-fra-yellow uppercase text-2xl font-semibold mb-4">Capitolo 2</p>
+          <h2 class="big-text text-fra-cream">RISORSE<br>UMANE</h2>
+        </div>
+      </div>
+      <div class="bg-fra-red flex items-center justify-center overflow-hidden min-h-[400px] md:min-h-0">
+        <img src="img/handbook/hr.png" alt="Team Fradiavolo" class="w-4/5 max-w-sm object-contain">
+      </div>
+    </section>
+
+    <!-- 2.1 ORGANIGRAMMA -->
+    <section id="organigramma" class="border-b-2 border-black bg-[#4A9B7F]">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+
+        <!-- Colonna sinistra: titolo + testo -->
+        <div class="border-b-2 md:border-b-0 md:border-r-2 border-black px-6 md:px-14 py-16 md:py-24 flex flex-col justify-center gap-8">
+          <p class="font-roc-compressed text-[#1C3A2E] uppercase text-2xl font-semibold">2.1</p>
+          <h3 class="font-roc-compressed uppercase text-fra-cream text-5xl md:text-7xl font-semibold leading-none">
+            Organigramma<br>Pizzerie
+          </h3>
+          <p class="font-roc text-fra-cream/90 text-lg md:text-xl leading-relaxed">
+            Da Fradiavolo crediamo fermamente che qualità e voglia di imparare siano la chiave per un business di successo ed abbiamo molti esempi tra noi; con il tempo e ulteriore formazione siamo sicuri di potervi permettere un avanzamento di carriera nella nostra azienda.<br><br>
+            Tanti nuovi punti vendita sono in apertura e l'azienda è in continua evoluzione, motivo per cui, le opportunità di carriera, sono frequenti.
+          </p>
+        </div>
+
+        <!-- Colonna destra: albero org -->
+        <div class="px-6 md:px-14 py-16 md:py-24 flex items-center justify-center">
+          <div class="flex flex-col items-center font-roc-compressed uppercase text-center w-full max-w-3xl mx-auto">
+
+            <!-- GM -->
+            <div class="bg-fra-red text-fra-cream border-2 border-black px-10 py-4 text-2xl font-semibold w-72">General Manager</div>
+            <div class="w-0.5 h-10 bg-fra-cream/40"></div>
+
+            <!-- Vice GM -->
+            <div class="bg-fra-red text-fra-cream border-2 border-black px-10 py-4 text-2xl font-semibold w-72">Vice GM</div>
+
+            <!-- Fork connector -->
+            <div class="relative w-full h-10">
+              <div class="absolute top-0 bottom-0 left-1/2 w-0.5 bg-fra-cream/40 -translate-x-1/2"></div>
+              <div class="absolute bottom-0 left-1/4 right-1/4 h-0.5 bg-fra-cream/40"></div>
+            </div>
+
+            <!-- Due rami -->
+            <div class="w-full grid grid-cols-2">
+
+              <!-- Ramo sinistro -->
+              <div class="flex flex-col items-center px-6">
+                <div class="w-0.5 h-10 bg-fra-cream/40"></div>
+                <div class="bg-fra-red text-fra-cream border-2 border-black px-6 py-3 text-xl font-semibold w-full text-center">Supervisor</div>
+                <div class="w-0.5 h-10 bg-fra-cream/40"></div>
+                <div class="bg-fra-cream text-black border-2 border-black px-4 py-3 text-lg font-semibold w-full text-center">Camerieri</div>
+                <div class="w-0.5 h-10 bg-fra-cream/40"></div>
+                <div class="bg-fra-cream text-black border-2 border-black px-4 py-3 text-lg font-semibold w-full text-center">Runner</div>
+              </div>
+
+              <!-- Ramo destro -->
+              <div class="flex flex-col items-center px-6">
+                <div class="w-0.5 h-10 bg-fra-cream/40"></div>
+                <div class="bg-fra-red text-fra-cream border-2 border-black px-6 py-3 text-xl font-semibold w-full text-center">Resp. Pizzeria</div>
+                <div class="w-0.5 h-10 bg-fra-cream/40"></div>
+                <div class="bg-fra-red text-fra-cream border-2 border-black px-6 py-3 text-lg font-semibold w-full text-center">Vice Resp.</div>
+                <div class="w-0.5 h-10 bg-fra-cream/40"></div>
+                <div class="bg-fra-cream text-black border-2 border-black px-4 py-3 text-lg font-semibold w-full text-center">Op. Pizzeria</div>
+                <div class="w-0.5 h-10 bg-fra-cream/40"></div>
+                <div class="bg-fra-cream text-black border-2 border-black px-4 py-3 text-lg font-semibold w-full text-center">Lavapiatti</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="relative uppercase text-6xl leading-none font-semibold pt-3 pb-2 border-b-2 border-black bg-fra-cream text-black flex overflow-hidden font-roc-compressed">
+      <div class="animate-marquee whitespace-nowrap"><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span></div>
+      <div class="absolute animate-marquee2 whitespace-nowrap"><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span></div>
+    </div>
+
+    <!-- CAP. 3 - SERVIZIO (chapter cover) -->
+    <section id="servizio" class="border-b-2 border-black bg-fra-red grid grid-cols-1 md:grid-cols-2 min-h-[60vh]">
+      <div class="border-b-2 md:border-b-0 md:border-r-2 border-black px-6 md:px-14 py-16 md:py-24 flex flex-col justify-between gap-8">
+        <div>
+          <p class="font-roc-compressed text-fra-yellow uppercase text-2xl font-semibold mb-4">Capitolo 3</p>
+          <h2 class="big-text text-fra-cream">SERVIZIO</h2>
+        </div>
+        <p class="font-roc-compressed text-fra-yellow uppercase text-5xl md:text-6xl font-semibold leading-tight">
+          "Vendiamo pizze,<br>dispensiamo sorrisi!"
+        </p>
+        <p class="font-roc text-fra-cream/80 text-lg md:text-xl leading-relaxed">
+          Il cliente è la persona più importante della nostra giornata lavorativa, facciamoglielo capire!
+        </p>
+      </div>
+      <div class="bg-fra-red flex items-end justify-center overflow-hidden min-h-[400px] md:min-h-0">
+        <img src="img/handbook/servizio.webp" alt="Chef Fradiavolo" class="w-full max-w-md object-contain object-bottom">
+      </div>
+    </section>
+
+    <!-- 3.1 DIVISA -->
+    <section id="divisa" class="border-b-2 border-black bg-fra-cream grid grid-cols-1 md:grid-cols-2 items-start">
+      <div class="border-b-2 md:border-b-0 md:border-r-2 border-black px-6 md:px-14 py-16 md:py-24">
+        <p class="font-roc-compressed text-fra-red uppercase text-2xl font-semibold mb-1">3.1</p>
+        <h3 class="font-roc-compressed uppercase text-black text-5xl md:text-7xl font-semibold leading-none mb-12">
+          Divisa
+        </h3>
+        <div class="flex flex-col gap-0 border-t-2 border-black">
+          <!-- 01 -->
+          <div class="border-b-2 border-black py-5 flex items-center gap-5 hover:bg-fra-yellow transition-colors duration-200 px-2 -mx-2">
+            <span class="font-roc-compressed text-fra-red text-3xl font-semibold w-10 shrink-0 leading-none">01</span>
+            <p class="font-roc text-black text-base md:text-lg">T-shirt e Felpa in dotazione pulita e stirata</p>
+          </div>
+          <!-- 02 -->
+          <div class="border-b-2 border-black py-5 flex items-center gap-5 hover:bg-fra-yellow transition-colors duration-200 px-2 -mx-2">
+            <span class="font-roc-compressed text-fra-red text-3xl font-semibold w-10 shrink-0 leading-none">02</span>
+            <p class="font-roc text-black text-base md:text-lg">Pantalone lungo nero pulito e stirato</p>
+          </div>
+          <!-- 03 -->
+          <div class="border-b-2 border-black py-5 flex items-center gap-5 hover:bg-fra-yellow transition-colors duration-200 px-2 -mx-2">
+            <span class="font-roc-compressed text-fra-red text-3xl font-semibold w-10 shrink-0 leading-none">03</span>
+            <p class="font-roc text-black text-base md:text-lg">Sneakers da tennis preferibili bianche e pulite</p>
+          </div>
+          <!-- 04 -->
+          <div class="border-b-2 border-black py-5 flex items-center gap-5 hover:bg-fra-yellow transition-colors duration-200 px-2 -mx-2">
+            <span class="font-roc-compressed text-fra-red text-3xl font-semibold w-10 shrink-0 leading-none">04</span>
+            <p class="font-roc text-black text-base md:text-lg">Capelli lunghi sempre legati</p>
+          </div>
+          <!-- 05 -->
+          <div class="border-b-2 border-black py-5 flex items-center gap-5 hover:bg-fra-yellow transition-colors duration-200 px-2 -mx-2">
+            <span class="font-roc-compressed text-fra-red text-3xl font-semibold w-10 shrink-0 leading-none">05</span>
+            <p class="font-roc text-black text-base md:text-lg">Un orologio, fede o piccoli orecchini sono permessi</p>
+          </div>
+          <!-- 06 -->
+          <div class="border-b-2 border-black py-5 flex items-center gap-5 hover:bg-fra-yellow transition-colors duration-200 px-2 -mx-2">
+            <span class="font-roc-compressed text-fra-red text-3xl font-semibold w-10 shrink-0 leading-none">06</span>
+            <p class="font-roc text-black text-base md:text-lg">Piercing facciali devono essere rimossi o coperti</p>
+          </div>
+          <!-- 07 -->
+          <div class="border-b-2 border-black py-5 flex items-center gap-5 hover:bg-fra-yellow transition-colors duration-200 px-2 -mx-2">
+            <span class="font-roc-compressed text-fra-red text-3xl font-semibold w-10 shrink-0 leading-none">07</span>
+            <p class="font-roc text-black text-base md:text-lg">Unghie sempre curate e pulite</p>
+          </div>
+          <!-- 08 -->
+          <div class="border-b-2 border-black py-5 flex items-center gap-5 hover:bg-fra-yellow transition-colors duration-200 px-2 -mx-2">
+            <span class="font-roc-compressed text-fra-red text-3xl font-semibold w-10 shrink-0 leading-none">08</span>
+            <p class="font-roc text-black text-base md:text-lg">Barba tenuta bene o corta/tagliata</p>
+          </div>
+        </div>
+      </div>
+      <div class="hidden md:flex sticky top-0 h-screen overflow-hidden">
+        <img src="img/divisa-photo.jpg" alt="Divisa Fradiavolo" class="w-full h-full object-cover">
+      </div>
+      <!-- mobile: foto -->
+      <div class="md:hidden border-t-2 border-black h-[60vw] overflow-hidden">
+        <img src="img/divisa-photo.jpg" alt="Divisa Fradiavolo" class="w-full h-full object-cover">
+      </div>
+    </section>
+
+    <!-- 3.1 ACCOGLIENZA (fisica) -->
+    <section id="accoglienza" class="border-b-2 border-black bg-fra-pepperwhite px-6 md:px-14 py-16 md:py-24">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+
+        <!-- Testo -->
+        <div class="flex flex-col gap-6">
+          <p class="font-roc-compressed text-fra-red uppercase text-2xl font-semibold">3.1</p>
+          <h3 class="font-roc-compressed uppercase text-black text-5xl md:text-7xl font-semibold leading-none">
+            Soddisfazione<br>del cliente.<br>Accoglienza
+          </h3>
+          <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+            L'accoglienza è il nostro colpo di fulmine: bastano pochi secondi, un sorriso, un saluto fatto nel modo giusto.
+            In quel momento il cliente decide se si sentirà a casa o semplicemente "in una pizzeria".
+          </p>
+          <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+            Per questo l'accoglienza non è mai un dettaglio: è l'inizio dell'esperienza Fradiavolo.
+          </p>
+          <div class="border-2 border-black bg-fra-yellow p-6 md:p-8">
+            <p class="font-roc-compressed text-black uppercase text-3xl md:text-4xl font-semibold leading-tight">
+              "Buongiorno e benarrivati!"
+            </p>
+            <p class="font-roc text-black/70 text-base mt-3">
+              Sorridi e saluta sempre il cliente all'arrivo. Fai sentire la voce.
+            </p>
+          </div>
+        </div>
+
+        <!-- Diagramma circolare qualità -->
+        <div class="relative w-full aspect-square max-w-[640px] mx-auto shrink-0">
+          <!-- Cerchio centrale -->
+          <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[28%] h-[28%] rounded-full bg-fra-red border-2 border-black flex items-center justify-center text-center z-10">
+            <span class="font-roc-compressed text-fra-cream uppercase text-[clamp(16px,3vw,28px)] font-semibold leading-tight px-2">ACCOGLIENZA</span>
+          </div>
+          <!-- Linee di connessione -->
+          <svg class="absolute inset-0 w-full h-full" viewBox="0 0 100 100" fill="none" preserveAspectRatio="xMidYMid meet">
+            <!-- i=0: angle=-90 => x2=50, y2=16 -->
+            <line x1="50" y1="50" x2="50" y2="16" stroke="black" stroke-width="0.4" />
+            <!-- i=1: angle=-30 => x2=79.44, y2=33 -->
+            <line x1="50" y1="50" x2="79.44" y2="33" stroke="black" stroke-width="0.4" />
+            <!-- i=2: angle=30 => x2=79.44, y2=67 -->
+            <line x1="50" y1="50" x2="79.44" y2="67" stroke="black" stroke-width="0.4" />
+            <!-- i=3: angle=90 => x2=50, y2=84 -->
+            <line x1="50" y1="50" x2="50" y2="84" stroke="black" stroke-width="0.4" />
+            <!-- i=4: angle=150 => x2=20.56, y2=67 -->
+            <line x1="50" y1="50" x2="20.56" y2="67" stroke="black" stroke-width="0.4" />
+            <!-- i=5: angle=210 => x2=20.56, y2=33 -->
+            <line x1="50" y1="50" x2="20.56" y2="33" stroke="black" stroke-width="0.4" />
+          </svg>
+          <!-- Bubble: Empatia (i=0, top) -->
+          <div style="position:absolute; left:calc(50% + 0%); top:calc(50% + -34%); transform:translate(-50%,-50%); width:20%; height:20%;"
+            class="rounded-full bg-[#4A9B7F] border-2 border-black flex items-center justify-center text-center z-10">
+            <span class="font-roc-compressed text-fra-cream uppercase text-[clamp(14px,2.8vw,22px)] font-semibold leading-tight px-1">Empatia</span>
+          </div>
+          <!-- Bubble: Anticipare il bisogno (i=1, top-right) -->
+          <div style="position:absolute; left:calc(50% + 29.44%); top:calc(50% + -17%); transform:translate(-50%,-50%); width:20%; height:20%;"
+            class="rounded-full bg-[#4A9B7F] border-2 border-black flex items-center justify-center text-center z-10">
+            <span class="font-roc-compressed text-fra-cream uppercase text-[clamp(14px,2.8vw,22px)] font-semibold leading-tight px-1">Anticipare il bisogno</span>
+          </div>
+          <!-- Bubble: Comprensione (i=2, bottom-right) -->
+          <div style="position:absolute; left:calc(50% + 29.44%); top:calc(50% + 17%); transform:translate(-50%,-50%); width:20%; height:20%;"
+            class="rounded-full bg-[#4A9B7F] border-2 border-black flex items-center justify-center text-center z-10">
+            <span class="font-roc-compressed text-fra-cream uppercase text-[clamp(14px,2.8vw,22px)] font-semibold leading-tight px-1">Comprensione</span>
+          </div>
+          <!-- Bubble: Capisci chi hai davanti (i=3, bottom) -->
+          <div style="position:absolute; left:calc(50% + 0%); top:calc(50% + 34%); transform:translate(-50%,-50%); width:20%; height:20%;"
+            class="rounded-full bg-[#4A9B7F] border-2 border-black flex items-center justify-center text-center z-10">
+            <span class="font-roc-compressed text-fra-cream uppercase text-[clamp(14px,2.8vw,22px)] font-semibold leading-tight px-1">Capisci chi hai davanti</span>
+          </div>
+          <!-- Bubble: Ascolto (i=4, bottom-left) -->
+          <div style="position:absolute; left:calc(50% + -29.44%); top:calc(50% + 17%); transform:translate(-50%,-50%); width:20%; height:20%;"
+            class="rounded-full bg-[#4A9B7F] border-2 border-black flex items-center justify-center text-center z-10">
+            <span class="font-roc-compressed text-fra-cream uppercase text-[clamp(14px,2.8vw,22px)] font-semibold leading-tight px-1">Ascolto</span>
+          </div>
+          <!-- Bubble: Disponibilità (i=5, top-left) -->
+          <div style="position:absolute; left:calc(50% + -29.44%); top:calc(50% + -17%); transform:translate(-50%,-50%); width:20%; height:20%;"
+            class="rounded-full bg-[#4A9B7F] border-2 border-black flex items-center justify-center text-center z-10">
+            <span class="font-roc-compressed text-fra-cream uppercase text-[clamp(14px,2.8vw,22px)] font-semibold leading-tight px-1">Disponibilità</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3.1 ACCOGLIENZA TELEFONICA -->
+    <section class="border-b-2 border-black bg-fra-pepperwhite px-6 md:px-14 py-16 md:py-24">
+      <div class="flex flex-col md:flex-row md:items-center gap-8 md:gap-16 mb-12">
+        <h3 class="font-roc-compressed uppercase text-black text-5xl md:text-6xl font-semibold leading-none shrink-0 md:w-1/3">
+          Accoglienza<br>telefonica
+        </h3>
+        <p class="font-roc text-black text-lg md:text-xl leading-relaxed md:w-2/3">
+          L'accoglienza telefonica è il primo contatto tra il cliente e Fradiavolo: deve essere professionale, cordiale e rassicurante. Il tono di voce deve sempre trasmettere disponibilità, attenzione e sorriso — sì, si capisce anche al telefono se sorridi — anche se il locale è pieno.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-0 border-t-2 border-l-2 border-black">
+
+        <!-- 1. Come rispondere al telefono -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream">
+          <p class="font-roc-compressed text-fra-red uppercase text-3xl font-semibold mb-1">01</p>
+          <p class="font-roc-compressed text-black uppercase text-2xl font-semibold mb-5">Come rispondere al telefono</p>
+          <p class="font-roc text-black/60 text-base mb-3">Formula standard Fradiavolo:</p>
+          <div class="bg-fra-yellow border-2 border-black p-4">
+            <p class="font-roc text-black text-base md:text-lg leading-relaxed font-semibold">
+              "Buongiorno/Buonasera Fradiavolo [nome PV], sono [nome], come posso esserle utile?"
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. Gestione della prenotazione -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream">
+          <p class="font-roc-compressed text-fra-red uppercase text-3xl font-semibold mb-1">02</p>
+          <p class="font-roc-compressed text-black uppercase text-2xl font-semibold mb-3">Gestione della prenotazione</p>
+          <p class="font-roc text-black/60 text-base mb-4">Quando il cliente chiede di prenotare, raccogli sempre tutte le informazioni necessarie:</p>
+          <ul class="flex flex-col gap-2">
+            <li class="font-roc text-black text-base md:text-lg flex gap-2 leading-snug">
+              <span class="text-fra-red font-semibold shrink-0 mt-0.5">&#8594;</span> Per che giorno desidera prenotare?
+            </li>
+            <li class="font-roc text-black text-base md:text-lg flex gap-2 leading-snug">
+              <span class="text-fra-red font-semibold shrink-0 mt-0.5">&#8594;</span> Per quante persone?
+            </li>
+            <li class="font-roc text-black text-base md:text-lg flex gap-2 leading-snug">
+              <span class="text-fra-red font-semibold shrink-0 mt-0.5">&#8594;</span> A che ora?
+            </li>
+            <li class="font-roc text-black text-base md:text-lg flex gap-2 leading-snug">
+              <span class="text-fra-red font-semibold shrink-0 mt-0.5">&#8594;</span> A nome di chi posso segnare la prenotazione?
+            </li>
+            <li class="font-roc text-black text-base md:text-lg flex gap-2 leading-snug">
+              <span class="text-fra-red font-semibold shrink-0 mt-0.5">&#8594;</span> Un recapito telefonico, per favore?
+            </li>
+          </ul>
+        </div>
+
+        <!-- 3. Conferma della prenotazione -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream">
+          <p class="font-roc-compressed text-fra-red uppercase text-3xl font-semibold mb-1">03</p>
+          <p class="font-roc-compressed text-black uppercase text-2xl font-semibold mb-3">Conferma della prenotazione</p>
+          <p class="font-roc text-black/60 text-base mb-3">Prima di chiudere la chiamata, ripetere sempre i dati per evitare errori:</p>
+          <div class="bg-fra-yellow border-2 border-black p-4 mb-4">
+            <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+              "Perfetto, confermo: tavolo per 4 persone, sabato alle 20:30, a nome Rossi. Corretto?"
+            </p>
+          </div>
+          <p class="font-roc text-black/60 text-base">Ringraziare il cliente e salutare con cordialità:</p>
+          <p class="font-roc text-black text-base italic mt-1">"La ringraziamo, l'aspettiamo da Fradiavolo. Buona giornata/buona serata."</p>
+        </div>
+
+        <!-- 4. Gestione delle criticità -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream">
+          <p class="font-roc-compressed text-fra-red uppercase text-3xl font-semibold mb-1">04</p>
+          <p class="font-roc-compressed text-black uppercase text-2xl font-semibold mb-3">Gestione delle criticità più comuni</p>
+          <p class="font-roc text-black font-semibold text-base mb-2">Locale pieno:</p>
+          <p class="font-roc text-black/70 text-base mb-3">Non dire mai solo "siamo pieni", ma proponi alternative come orari o giorni diversi:</p>
+          <div class="bg-fra-yellow border-2 border-black p-4">
+            <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+              "Al momento non abbiamo disponibilità alle 19:00, ma posso proporle le 20:30 oppure le 22:00."
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CITAZIONE -->
+    <section class="border-b-2 border-black bg-fra-yellow flex items-center justify-center py-28 md:py-44 px-8 text-center">
+      <div class="max-w-4xl">
+        <p class="font-roc-compressed uppercase text-fra-red text-[7vw] md:text-[5vw] leading-tight">
+          "Lascia i problemi personali fuori dal servizio. Il cliente non ha colpe."
+        </p>
+        <p class="font-roc text-black/40 mt-8 text-base uppercase tracking-widest">— Cit. Aristotele</p>
+      </div>
+    </section>
+
+    <!-- 3.2 STEP OF SERVICE -->
+    <section id="step-of-service" class="border-b-2 border-black bg-fra-pepperwhite px-6 md:px-14 py-16 md:py-24">
+      <p class="font-roc-compressed text-fra-red uppercase text-2xl font-semibold mb-1">3.2</p>
+      <h3 class="font-roc-compressed uppercase text-black text-5xl md:text-7xl font-semibold leading-none mb-12">
+        Step of Service
+      </h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-0 border-t-2 border-l-2 border-black">
+        <!-- 01 Accoglienza -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200">
+          <div class="flex items-start gap-4">
+            <span class="font-roc-compressed text-fra-red text-5xl font-semibold leading-none shrink-0">01</span>
+            <div>
+              <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight mb-2">Accoglienza</p>
+              <p class="font-roc text-black/70 text-sm md:text-base leading-relaxed">Accogli con il saluto Fradiavolo.</p>
+            </div>
+          </div>
+        </div>
+        <!-- 02 Far accomodare -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200">
+          <div class="flex items-start gap-4">
+            <span class="font-roc-compressed text-fra-red text-5xl font-semibold leading-none shrink-0">02</span>
+            <div>
+              <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight mb-2">Far accomodare</p>
+              <p class="font-roc text-black/70 text-sm md:text-base leading-relaxed">Chiedi se hanno prenotato. I primi clienti sempre in vetrina. Lascia sempre due opzioni, mai scelta libera. Se necessario, elimina il coperto di troppo.</p>
+            </div>
+          </div>
+        </div>
+        <!-- 03 Acqua -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200">
+          <div class="flex items-start gap-4">
+            <span class="font-roc-compressed text-fra-red text-5xl font-semibold leading-none shrink-0">03</span>
+            <div>
+              <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight mb-2">Acqua</p>
+              <p class="font-roc text-black/70 text-sm md:text-base leading-relaxed">Appena accomodati, proponi sempre dell'acqua nell'attesa: "Posso portarvi dell'acqua nell'attesa?"</p>
+            </div>
+          </div>
+        </div>
+        <!-- 04 Presa dell'ordine -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200">
+          <div class="flex items-start gap-4">
+            <span class="font-roc-compressed text-fra-red text-5xl font-semibold leading-none shrink-0">04</span>
+            <div>
+              <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight mb-2">Presa dell'ordine</p>
+              <p class="font-roc text-black/70 text-sm md:text-base leading-relaxed">Entro 5 minuti. Proponi sempre antipasti e/o fritti. Rileggi la comanda prima di inviarla. Porta via scatolina e drink list.</p>
+            </div>
+          </div>
+        </div>
+        <!-- 05 Check e seconda bibita -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200">
+          <div class="flex items-start gap-4">
+            <span class="font-roc-compressed text-fra-red text-5xl font-semibold leading-none shrink-0">05</span>
+            <div>
+              <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight mb-2">Check e seconda bibita</p>
+              <p class="font-roc text-black/70 text-sm md:text-base leading-relaxed">A metà pasto, verifica il gradimento (domanda positiva: "Va tutto bene?", non "Come sta andando?"). Proponi un secondo giro di bibite. Qualsiasi problema, segnala subito al responsabile.</p>
+            </div>
+          </div>
+        </div>
+        <!-- 06 Sbarazzare -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200">
+          <div class="flex items-start gap-4">
+            <span class="font-roc-compressed text-fra-red text-5xl font-semibold leading-none shrink-0">06</span>
+            <div>
+              <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight mb-2">Sbarazzare</p>
+              <p class="font-roc text-black/70 text-sm md:text-base leading-relaxed">Attendi che tutti i commensali abbiano finito. Rimuovi i piatti in maniera ordinata, fai due giri se serve. Usa sempre il vassoio per le bibite.</p>
+            </div>
+          </div>
+        </div>
+        <!-- 07 Dolci, caffè, amari -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200">
+          <div class="flex items-start gap-4">
+            <span class="font-roc-compressed text-fra-red text-5xl font-semibold leading-none shrink-0">07</span>
+            <div>
+              <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight mb-2">Dolci, caffè, amari</p>
+              <p class="font-roc text-black/70 text-sm md:text-base leading-relaxed">Entro 5 minuti. Proponi sempre al tavolo.</p>
+            </div>
+          </div>
+        </div>
+        <!-- 08 Arrivederci -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200">
+          <div class="flex items-start gap-4">
+            <span class="font-roc-compressed text-fra-red text-5xl font-semibold leading-none shrink-0">08</span>
+            <div>
+              <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight mb-2">Arrivederci</p>
+              <p class="font-roc text-black/70 text-sm md:text-base leading-relaxed">Sorridi e ringrazia il cliente. Se l'esperienza è stata positiva, in cassa chiedi se ha piacere di lasciare una recensione su Google.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="font-roc text-black text-sm mt-6 italic">
+        Se possibile, chiedere se è la prima visita del cliente, e in caso affermativo presentare il format concentrandosi su tipologie di impasti.
+      </p>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="relative uppercase text-6xl leading-none font-semibold pt-3 pb-2 border-b-2 border-black bg-fra-cream text-black flex overflow-hidden font-roc-compressed">
+      <div class="animate-marquee whitespace-nowrap"><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span></div>
+      <div class="absolute animate-marquee2 whitespace-nowrap"><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span></div>
+    </div>
+
+    <!-- 3.3 REGOLE D'ORO -->
+    <section id="regole-oro" class="border-b-2 border-black bg-fra-red px-6 md:px-14 py-16 md:py-24">
+      <p class="font-roc-compressed text-fra-yellow uppercase text-2xl font-semibold mb-1">3.3</p>
+      <h3 class="font-roc-compressed uppercase text-fra-cream text-5xl md:text-7xl font-semibold leading-none mb-12">
+        Regole d'oro<br>del buon cameriere
+      </h3>
+
+      <div class="flex flex-col gap-0 border-t-2 border-black">
+        <!-- 01 -->
+        <div class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6 border-b-2 border-black py-8 md:py-10 group">
+          <span class="font-roc-compressed text-fra-yellow text-7xl md:text-8xl font-semibold leading-none w-28 shrink-0 self-start">01</span>
+          <div class="self-center">
+            <p class="font-roc-compressed text-fra-cream uppercase text-2xl md:text-3xl font-semibold leading-tight mb-2">Sul tavolo, solo il necessario!</p>
+            <p class="font-roc text-fra-cream/70 text-base md:text-lg leading-relaxed">Se porti il caffè, l'amaro o il dolce, togli tutto ciò che non è necessario. Rimangono solo acqua e bevande.</p>
+          </div>
+        </div>
+        <!-- 02 -->
+        <div class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6 border-b-2 border-black py-8 md:py-10 group">
+          <span class="font-roc-compressed text-fra-yellow text-7xl md:text-8xl font-semibold leading-none w-28 shrink-0 self-start">02</span>
+          <div class="self-center">
+            <p class="font-roc-compressed text-fra-cream uppercase text-2xl md:text-3xl font-semibold leading-tight mb-2">Tecnica del camionista</p>
+            <p class="font-roc text-fra-cream/70 text-base md:text-lg leading-relaxed">Non fare mai viaggi a vuoto. Se sbarazzi un tavolo e porti i piatti al lavaggio, torna indietro con qualcosa di pulito. Farai un viaggio in meno dopo.</p>
+          </div>
+        </div>
+        <!-- 03 -->
+        <div class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6 border-b-2 border-black py-8 md:py-10 group">
+          <span class="font-roc-compressed text-fra-yellow text-7xl md:text-8xl font-semibold leading-none w-28 shrink-0 self-start">03</span>
+          <div class="self-center">
+            <p class="font-roc-compressed text-fra-cream uppercase text-2xl md:text-3xl font-semibold leading-tight mb-2">Conosci il cliente</p>
+            <p class="font-roc text-fra-cream/70 text-base md:text-lg leading-relaxed">Capisci chi hai di fronte, prevedi l'esigenza del cliente. Conosci il menù per essere sicuro di te e pronto a esaudire ogni curiosità.</p>
+          </div>
+        </div>
+        <!-- 04 -->
+        <div class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6 border-b-2 border-black py-8 md:py-10 group">
+          <span class="font-roc-compressed text-fra-yellow text-7xl md:text-8xl font-semibold leading-none w-28 shrink-0 self-start">04</span>
+          <div class="self-center">
+            <p class="font-roc-compressed text-fra-cream uppercase text-2xl md:text-3xl font-semibold leading-tight mb-2">Più attività in meno spostamenti</p>
+            <p class="font-roc text-fra-cream/70 text-base md:text-lg leading-relaxed">Più attività riesci a eseguire in un unico spostamento nel locale, meno dovrai muoverti e più sarai efficiente. E paradossalmente lavorerai anche meno.</p>
+          </div>
+        </div>
+        <!-- 05 -->
+        <div class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6 border-b-2 border-black py-8 md:py-10 group">
+          <span class="font-roc-compressed text-fra-yellow text-7xl md:text-8xl font-semibold leading-none w-28 shrink-0 self-start">05</span>
+          <div class="self-center">
+            <p class="font-roc-compressed text-fra-cream uppercase text-2xl md:text-3xl font-semibold leading-tight mb-2">Ordine e calma anche nel rush!</p>
+            <p class="font-roc text-fra-cream/70 text-base md:text-lg leading-relaxed">Può esserci il pienone, ma devi sembrare sempre in controllo: movimenti puliti, voce calma, niente corse isteriche.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.4 GESTIONE LAMENTELE -->
+    <section id="lamentele" class="border-b-2 border-black bg-fra-cream grid grid-cols-1 md:grid-cols-2">
+      <div class="border-b-2 md:border-b-0 md:border-r-2 border-black px-6 md:px-14 py-16 md:py-24 flex flex-col gap-6">
+        <p class="font-roc-compressed text-fra-red uppercase text-2xl font-semibold">3.4</p>
+        <h3 class="font-roc-compressed uppercase text-black text-5xl md:text-7xl font-semibold leading-none">
+          Gestione<br>Lamentele
+        </h3>
+        <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+          Presta molta attenzione ai feedback dei clienti, perché talvolta possono essere suggerimenti per farci crescere,
+          altre volte critiche da gestire al momento.
+        </p>
+        <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+          Ricorda però sempre di riportare il feedback <strong>tempestivamente al tuo referente nel servizio</strong>
+          per poterci permettere di risolvere le eventuali problematiche.
+        </p>
+      </div>
+      <div class="px-6 md:px-14 py-16 md:py-24 flex flex-col justify-center gap-6">
+        <p class="font-roc-compressed text-fra-red uppercase text-5xl md:text-6xl font-semibold leading-none">
+          1 su 21
+        </p>
+        <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+          Per ogni persona che si lamenta, ce ne sono almeno <strong>20 che non lo fanno</strong>.
+        </p>
+        <p class="font-roc-compressed text-fra-red uppercase text-5xl md:text-6xl font-semibold leading-none mt-4">
+          8–10 persone
+        </p>
+        <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+          Una persona che ha avuto un problema in un ristorante ne parla con altre <strong>8/10 persone</strong> di quanto accaduto.
+        </p>
+        <p class="font-roc text-black/50 text-xs uppercase tracking-widest mt-2">
+          Fonte: National Retail Merchants Association (USA)
+        </p>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="relative uppercase text-6xl leading-none font-semibold pt-3 pb-2 border-b-2 border-black bg-fra-cream text-black flex overflow-hidden font-roc-compressed">
+      <div class="animate-marquee whitespace-nowrap"><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span></div>
+      <div class="absolute animate-marquee2 whitespace-nowrap"><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span><span class="mx-8">eat pizza make love</span></div>
+    </div>
+
+    <!-- 3.4 TECNICHE DI VENDITA -->
+    <section id="tecniche-vendita" class="border-b-2 border-black bg-fra-pepperwhite">
+
+      <!-- Riga 1: intro sinistra + foto destra -->
+      <div class="grid grid-cols-1 md:grid-cols-2 border-b-2 border-black">
+        <div class="border-b-2 md:border-b-0 md:border-r-2 border-black px-6 md:px-14 py-16 md:py-24 flex flex-col gap-6 justify-center">
+          <p class="font-roc-compressed text-fra-red uppercase text-2xl font-semibold">3.4</p>
+          <h3 class="font-roc-compressed uppercase text-black text-5xl md:text-7xl font-semibold leading-none">
+            Tecniche di vendita
+          </h3>
+          <p class="font-roc-compressed text-fra-red uppercase text-2xl md:text-3xl font-semibold">
+            Up Selling · Cross Selling
+          </p>
+          <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+            È fondamentale cercare di non porre mai domande <strong>APERTE</strong> al cliente.
+          </p>
+          <div class="flex flex-col md:flex-row gap-4 max-w-2xl">
+            <div class="flex-1 border-2 border-black p-5 bg-black/5 flex items-start gap-3">
+              <span class="font-roc-compressed text-black/30 text-3xl font-semibold leading-none shrink-0">NO</span>
+              <p class="font-roc text-black text-base">"Gradisce altro?"</p>
+            </div>
+            <div class="flex-1 border-2 border-black p-5 bg-fra-yellow flex items-start gap-3">
+              <span class="font-roc-compressed text-fra-red text-3xl font-semibold leading-none shrink-0">SI</span>
+              <p class="font-roc text-black text-base font-semibold">"Preferisce un caffè o un dolce?"</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-fra-pepperwhite flex items-end justify-center overflow-hidden min-h-[400px] md:min-h-0">
+          <img src="img/handbook/manager.webp" alt="Tecniche di vendita" class="w-full max-w-md object-contain object-bottom">
+        </div>
+      </div>
+
+      <!-- Riga 2: Up-Selling, Cross-Selling, Come applicarle -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-0 border-t-0 border-l-0">
+
+        <!-- UP SELLING -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream flex flex-col">
+          <div class="flex-1">
+            <p class="font-roc-compressed text-fra-red uppercase text-3xl font-semibold mb-4">Up-Selling</p>
+            <p class="font-roc text-black/70 text-base mb-3">
+              <strong class="text-black">Definizione:</strong> Suggerire un'opzione migliore, più costosa o "upgradata" rispetto a quella che il cliente stava considerando.
+            </p>
+            <p class="font-roc text-black/70 text-base mb-3"><strong class="text-black">Esempio:</strong></p>
+            <ul class="flex flex-col gap-2 mb-4">
+              <li class="font-roc text-black text-base leading-relaxed border-l-4 border-fra-red pl-4 py-1">
+                "Invece della pizza Margherita, provi la nostra Pepperoni, è un'esperienza diversa!"
+              </li>
+            </ul>
+          </div>
+          <div class="flex items-end gap-4 border-t-2 border-black pt-0">
+            <div class="text-center flex-1">
+              <img src="img/handbook/marghe.webp" alt="Margherita" class="h-[28rem] w-auto mx-auto object-contain mb-0">
+              <p class="font-roc text-black/50 text-xs uppercase mb-1">Margherita</p>
+              <p class="font-roc-compressed text-black text-3xl font-semibold">&euro; 8,5</p>
+            </div>
+            <span class="font-roc-compressed text-fra-red text-4xl font-semibold mb-4">&#8594;</span>
+            <div class="text-center flex-1">
+              <img src="img/handbook/peppe.webp" alt="Pepperoni" class="h-96 w-auto mx-auto object-contain mb-0">
+              <div class="bg-fra-yellow border-2 border-black p-3">
+                <p class="font-roc text-black/70 text-xs uppercase mb-1">Pepperoni</p>
+                <p class="font-roc-compressed text-black text-3xl font-semibold">&euro; 13,5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CROSS SELLING -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream flex flex-col">
+          <div class="flex-1">
+            <p class="font-roc-compressed text-fra-red uppercase text-3xl font-semibold mb-4">Cross-Selling</p>
+            <p class="font-roc text-black/70 text-base mb-3">
+              <strong class="text-black">Definizione:</strong> Proporre prodotti correlati o complementari a ciò che il cliente ha già scelto.
+            </p>
+            <p class="font-roc text-black/70 text-base mb-3"><strong class="text-black">Esempi:</strong></p>
+            <ul class="flex flex-col gap-2 mb-6">
+              <li class="font-roc text-black text-base leading-relaxed border-l-4 border-fra-red pl-4 py-1">
+                "Per accompagnare la sua pizza, le consiglio una birra artigianale Baladin che si abbina perfettamente."
+              </li>
+              <li class="font-roc text-black text-base leading-relaxed border-l-4 border-fra-red pl-4 py-1">
+                "Prima della pizza, le andrebbe una porzione delle nostre patatine fritte o un antipasto di supplì?"
+              </li>
+              <li class="font-roc text-black text-base leading-relaxed border-l-4 border-fra-red pl-4 py-1">
+                "Per concludere, abbiamo dei dolci fatti in casa, le va un tiramisù?"
+              </li>
+            </ul>
+          </div>
+
+          <!-- Visual: Pizza + Birra + Patatine -->
+          <div class="flex items-end justify-center gap-4 pt-4 border-t-2 border-black">
+            <div class="flex flex-col items-center gap-3 flex-1 text-center">
+              <div class="h-[28rem] flex items-center justify-center">
+                <img src="img/handbook/marghe.webp" alt="Pizza" class="max-h-full w-auto object-contain" />
+              </div>
+              <span class="font-roc-compressed text-black uppercase text-2xl font-bold">Pizza</span>
+            </div>
+            <span class="font-roc-compressed text-fra-red text-5xl font-bold shrink-0 mb-10">+</span>
+            <div class="flex flex-col items-center gap-3 flex-1 text-center">
+              <div class="h-[28rem] flex items-center justify-center">
+                <img src="img/handbook/birra.webp" alt="Birra Baladin" class="max-h-full w-auto object-contain" />
+              </div>
+              <span class="font-roc-compressed text-black uppercase text-2xl font-bold">Birra</span>
+            </div>
+            <span class="font-roc-compressed text-fra-red text-5xl font-bold shrink-0 mb-10">+</span>
+            <div class="flex flex-col items-center gap-3 flex-1 text-center">
+              <div class="h-[28rem] flex items-center justify-center">
+                <img src="img/handbook/patate.webp" alt="Patatine fritte" class="max-h-full w-auto object-contain" />
+              </div>
+              <span class="font-roc-compressed text-black uppercase text-2xl font-bold">Patatine</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- COME APPLICARLE -->
+        <div class="border-b-2 border-r-2 border-black p-8 bg-fra-cream md:col-span-2">
+          <p class="font-roc-compressed text-fra-red uppercase text-2xl font-semibold mb-6">Come applicarle efficacemente</p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="border-2 border-black p-5 hover:bg-fra-yellow transition-colors duration-200">
+              <p class="font-roc-compressed text-black uppercase text-3xl md:text-4xl font-semibold mb-3">Conosci il cliente</p>
+              <p class="font-roc text-black/70 text-base md:text-lg leading-relaxed">Suggerisci in base ai gusti e alle esigenze specifiche.</p>
+            </div>
+            <div class="border-2 border-black p-5 hover:bg-fra-yellow transition-colors duration-200">
+              <p class="font-roc-compressed text-black uppercase text-3xl md:text-4xl font-semibold mb-3">Crea valore</p>
+              <p class="font-roc text-black/70 text-base md:text-lg leading-relaxed">Fai percepire il beneficio dell'offerta, non solo il costo.</p>
+            </div>
+            <div class="border-2 border-black p-5 hover:bg-fra-yellow transition-colors duration-200">
+              <p class="font-roc-compressed text-black uppercase text-3xl md:text-4xl font-semibold mb-3">Sii discreto</p>
+              <p class="font-roc text-black/70 text-base md:text-lg leading-relaxed">Non essere troppo insistente. L'obiettivo è migliorare l'esperienza, non spingere la vendita.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3.5 STORYTELLING -->
+    <section id="storytelling" class="border-b-2 border-black bg-fra-cream grid grid-cols-1 md:grid-cols-2">
+      <div class="border-b-2 md:border-b-0 md:border-r-2 border-black px-6 md:px-14 py-16 md:py-24 flex flex-col justify-center gap-6">
+        <p class="font-roc-compressed text-fra-red uppercase text-2xl font-semibold">3.5</p>
+        <h3 class="font-roc-compressed uppercase text-black text-5xl md:text-7xl font-semibold leading-none">
+          Storytelling<br>Prodotti &amp;<br>Fornitori
+        </h3>
+        <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+          Lo storytelling nella ristorazione è l'arte di trasformare cibo, ingredienti e ambiente in una narrazione emozionale,
+          capace di creare connessioni profonde con i clienti e differenziare il brand.
+        </p>
+        <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+          Raccontare l'origine, la tradizione, la passione delle persone e i valori del territorio trasforma il semplice pasto
+          in <strong>un'esperienza memorabile e fidelizzante</strong>.
+        </p>
+      </div>
+      <div class="px-6 md:px-14 py-16 md:py-24 bg-fra-pepperwhite flex flex-col justify-center gap-6">
+        <p class="font-roc-compressed text-black/40 uppercase text-xl font-semibold">Approfondimenti</p>
+        <div class="flex flex-col gap-0 border-t-2 border-l-2 border-black">
+          <a href="#impasti" class="border-b-2 border-r-2 border-black px-6 py-5 font-roc-compressed text-black uppercase text-2xl font-semibold hover:bg-fra-yellow transition-colors duration-200 cursor-pointer flex justify-between items-center">
+            I nostri impasti
+            <span class="text-fra-red">&#8594;</span>
+          </a>
+          <a href="#farina" class="border-b-2 border-r-2 border-black px-6 py-5 font-roc-compressed text-black uppercase text-2xl font-semibold hover:bg-fra-yellow transition-colors duration-200 cursor-pointer flex justify-between items-center">
+            La nostra farina
+            <span class="text-fra-red">&#8594;</span>
+          </a>
+          <a href="#fornitori" class="border-b-2 border-r-2 border-black px-6 py-5 font-roc-compressed text-black uppercase text-2xl font-semibold hover:bg-fra-yellow transition-colors duration-200 cursor-pointer flex justify-between items-center">
+            I nostri fornitori
+            <span class="text-fra-red">&#8594;</span>
+          </a>
+          <a href="#spazi" class="border-b-2 border-r-2 border-black px-6 py-5 font-roc-compressed text-black uppercase text-2xl font-semibold hover:bg-fra-yellow transition-colors duration-200 cursor-pointer flex justify-between items-center">
+            I nostri locali
+            <span class="text-fra-red">&#8594;</span>
+          </a>
+        </div>
+        <p class="font-roc text-black/40 text-sm italic">Contenuti in aggiornamento</p>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="relative uppercase text-6xl leading-none font-semibold pt-3 pb-2 border-b-2 border-black bg-fra-cream text-black flex overflow-hidden font-roc-compressed">
+      <div class="animate-marquee whitespace-nowrap"><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span></div>
+      <div class="absolute animate-marquee2 whitespace-nowrap"><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span><span class="mx-8">fradiavolo</span></div>
+    </div>
+
+    <!-- 1.3 I NOSTRI IMPASTI -->
+    <section id="impasti" class="border-b-2 border-black bg-fra-pepperwhite">
+
+      <!-- Header -->
+      <div class="grid grid-cols-1 md:grid-cols-2 border-b-2 border-black">
+        <div class="border-b-2 md:border-b-0 md:border-r-2 border-black bg-fra-red px-6 md:px-14 py-16 md:py-24 flex flex-col justify-center gap-6">
+          <p class="font-roc-compressed text-fra-yellow uppercase text-2xl font-semibold">1.3</p>
+          <h3 class="font-roc-compressed uppercase text-fra-cream text-5xl md:text-7xl font-semibold leading-none">
+            I Nostri Impasti
+          </h3>
+          <p class="font-roc text-fra-cream text-base md:text-lg leading-relaxed">
+            Da sempre uno dei nostri fattori differenzianti è la possibilità di <strong class="text-fra-yellow">mangiare la pizza come più ti piace</strong>. Fin dall'inizio abbiamo offerto tre impasti — <strong class="text-fra-yellow">Classico</strong>, <strong class="text-fra-yellow">Integrale</strong> e <strong class="text-fra-yellow">Nero al carbone vegetale</strong> — combinabili con tutte le nostre pizze.
+          </p>
+          <p class="font-roc text-fra-cream text-base md:text-lg leading-relaxed">
+            Poi abbiamo introdotto l'impasto <strong class="text-fra-yellow">Senza Frumento</strong>, realizzato con farine naturalmente prive di glutine (non adatto a chi soffre di celiachia, per possibile contaminazione in cucina). E da pochissimo è arrivata una nuova rivoluzione: l'impasto <strong class="text-fra-yellow">Sottile</strong> — Romano nei locali di Roma — dal bordo basso, croccante e leggerissimo, per chi vuole tutta la pizza e niente di superfluo.
+          </p>
+          <p class="font-roc text-fra-cream text-base md:text-lg leading-relaxed">
+            Cinque impasti, una direzione chiara: <strong class="text-fra-yellow">essere il posto in cui ogni desiderio può essere esaudito</strong>, dove un tavolo con gusti diversi può andare d'accordo.
+          </p>
+          <p class="font-roc text-fra-cream/70 text-base leading-relaxed">
+            Tutti i nostri impasti nascono da una lievitazione naturale e dalla selezione accurata delle farine — in particolare quelle di Molino Bongiovanni — per garantire alta digeribilità e un gusto che non cambia mai da un locale all'altro.
+          </p>
+
+          <!-- Griglia 5 impasti -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-0 border-t-2 border-l-2 border-black mt-6">
+            <!-- Classico -->
+            <div class="border-b-2 border-r-2 border-black p-6 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex items-center gap-5">
+              <img src="img/impasti/Classico.png" alt="Classico" class="w-20 h-20 object-contain shrink-0">
+              <div>
+                <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight">Classico</p>
+                <p class="font-roc text-black/70 text-sm leading-relaxed mt-1">La base di tutto. Farina di grano tenero lavorata con cura: soffice, profumata, con un cornicione che non si butta — è la nostra firma.</p>
+              </div>
+            </div>
+            <!-- Integrale -->
+            <div class="border-b-2 border-r-2 border-black p-6 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex items-center gap-5">
+              <img src="img/impasti/Integrale.png" alt="Integrale" class="w-20 h-20 object-contain shrink-0">
+              <div>
+                <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight">Integrale</p>
+                <p class="font-roc text-black/70 text-sm leading-relaxed mt-1">Una miscela di farina integrale, semi di lino, crusca e avena. Più sostanziosa, più carattere, senza rinunciare alla leggerezza.</p>
+              </div>
+            </div>
+            <!-- Nero -->
+            <div class="border-b-2 border-r-2 border-black p-6 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex items-center gap-5">
+              <img src="img/impasti/Nero.png" alt="Nero" class="w-20 h-20 object-contain shrink-0">
+              <div>
+                <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight">Nero</p>
+                <p class="font-roc text-black/70 text-sm leading-relaxed mt-1">Con carbone vegetale attivo: leggero, digeribile, visivamente diverso da tutto. Un impasto che fa conversazione ancora prima del primo morso.</p>
+              </div>
+            </div>
+            <!-- Senza Frumento -->
+            <div class="border-b-2 border-r-2 border-black p-6 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex items-center gap-5">
+              <img src="img/impasti/Senza frumento.png" alt="Senza Frumento" class="w-20 h-20 object-contain shrink-0">
+              <div>
+                <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight">Senza Frumento</p>
+                <p class="font-roc text-black/70 text-sm leading-relaxed mt-1">Naturalmente senza glutine. Perché la pizza è per tutti — senza compromessi sul gusto.</p>
+              </div>
+            </div>
+            <!-- Sottile -->
+            <div class="border-b-2 border-r-2 border-black p-6 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex items-center gap-5">
+              <img src="img/impasti/Sottile.png" alt="Sottile" class="w-20 h-20 object-contain shrink-0">
+              <div>
+                <p class="font-roc-compressed text-black uppercase text-2xl font-semibold leading-tight">Sottile</p>
+                <p class="font-roc text-black/70 text-sm leading-relaxed mt-1">Croccante, leggero, diretto. Per chi vuole tutta la pizza e niente di superfluo. Disponibile in locali selezionati.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-center bg-fra-cream">
+          <img src="img/handbook/impasti700.webp" alt="I cinque impasti Fradiavolo" class="w-full object-contain">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- 1.3b LA NOSTRA FARINA -->
+    <section id="farina" class="border-b-2 border-black bg-fra-pepperwhite">
+      <div class="grid grid-cols-1 md:grid-cols-2 border-b-0 border-black">
+
+        <!-- Sinistra: testo -->
+        <div class="border-b-2 md:border-b-0 md:border-r-2 border-black px-6 md:px-14 py-16 md:py-24 flex flex-col justify-center gap-6">
+          <p class="font-roc-compressed text-fra-red uppercase text-2xl font-semibold">1.3b</p>
+          <h3 class="font-roc-compressed uppercase text-black text-5xl md:text-7xl font-semibold leading-none">
+            La Nostra Farina
+          </h3>
+
+          <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+            Dietro ogni impasto Fradiavolo c'è una scelta precisa: il <strong>Grano Bologna</strong>, una delle varietà di frumento tenero più pregiate d'Italia. È un grano di forza, coltivato in tutta la penisola, noto per la sua stabilità e le sue eccellenti proprietà tecnologiche. Se un cliente ti chiede "ma che farina usate?", questa è la risposta che fa la differenza.
+          </p>
+
+          <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+            Dal Grano Bologna ricaviamo una <strong>farina Tipo 1</strong> — non la classica "00" che si trova ovunque. La Tipo 1 è meno raffinata: conserva una parte maggiore di crusca e germe di grano, risultando più scura, più profumata e con un aroma intenso di grano tostato. È la scelta ideale per chi cerca un equilibrio tra gusto, salute e performance dell'impasto.
+          </p>
+
+          <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+            Perché questa combinazione funziona così bene? Il Grano Bologna è un frumento di forza con un alto contenuto proteico (13–15%), capace di sostenere <strong>lunghe lievitazioni di 24–48 ore</strong> mantenendo la struttura dell'impasto stabile. La farina Tipo 1, grazie alle fibre, assorbe più acqua — e l'idratazione è una componente fondamentale dei nostri impasti — garantendo una pizza più morbida, digeribile e che dura nel tempo.
+          </p>
+
+          <p class="font-roc text-black text-base md:text-lg leading-relaxed">
+            In più, la fibra alimentare riduce l'indice glicemico rispetto alle farine raffinate, ed è più ricca di sali minerali come potassio, fosforo e magnesio. Non è solo una pizza buona — è una pizza <strong>pensata bene</strong>.
+          </p>
+
+          <p class="font-roc text-black/60 text-base leading-relaxed">
+            Quando racconti la nostra pizza, parti da qui: non usiamo una farina qualsiasi, usiamo una farina che nasce da un grano selezionato, lavorata il meno possibile per conservare tutto il suo carattere.
+          </p>
+        </div>
+
+        <!-- Destra: foto farina -->
+        <div class="flex items-center justify-center bg-fra-cream">
+          <img src="img/handbook/farina.webp" alt="Grano Bologna e farina Tipo 1" class="w-full object-contain">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 1.3c I NOSTRI FORNITORI -->
+    <section id="fornitori" class="border-b-2 border-black bg-fra-red">
+
+      <!-- Header -->
+      <div class="px-6 md:px-14 py-16 md:py-20 border-b-2 border-black">
+        <p class="font-roc-compressed text-fra-yellow uppercase text-2xl font-semibold mb-1">1.3c</p>
+        <h3 class="font-roc-compressed uppercase text-fra-cream text-5xl md:text-7xl font-semibold leading-none mb-6">
+          I Nostri Fornitori
+        </h3>
+        <p class="font-roc text-fra-cream text-base md:text-lg leading-relaxed">
+          Ogni ingrediente che arriva nelle nostre pizzerie ha un nome, una storia e un perché. Non scegliamo fornitori: scegliamo <strong class="text-fra-yellow">partner che condividono la nostra ossessione per la qualità</strong>. Conoscerli significa saper raccontare al cliente cosa c'è davvero nel piatto — e fare la differenza tra servire una pizza e regalare un'esperienza.
+        </p>
+      </div>
+
+      <!-- Griglia fornitori -->
+      <div class="grid grid-cols-1 md:grid-cols-3 border-t-0 border-l-2 border-black">
+
+        <!-- Dreamfarm -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/dreamfarm.webp" alt="Dreamfarm" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">Dreamfarm</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Mozzarella Vegetale</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            Dreamfarm è una startup di Parma, nel cuore della Food Valley italiana, che produce una mozzarella <strong>100% vegetale a base di mandorla fermentata</strong>. Ingredienti minimi, gusto sorprendente. Da Fradiavolo, qualsiasi pizza del menu può essere resa vegana sostituendo la mozzarella tradizionale con Dreamfarm — così nessuno resta escluso.
+          </p>
+          <p class="font-roc text-black/50 text-sm italic">
+            Attenzione: contiene mandorle (frutta a guscio). Non adatta a chi è allergico alla frutta secca.
+          </p>
+        </div>
+
+        <!-- Armatore -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/armatore.webp" alt="Armatore" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">Armatore</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Alici di Cetara</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            Le alici di Cetara sono una delle eccellenze della Costiera Amalfitana, lavorate ancora secondo la tradizione secolare dei pescatori locali. Armatore le seleziona e le conserva sott'olio, rispettando tempi di maturazione lunghi che regalano un sapore intenso, profondo e inconfondibile. Quando il cliente assaggia un'alice sulla pizza, sta assaggiando il mare di Cetara.
+          </p>
+        </div>
+
+        <!-- Baladin -->
+        <div class="border-b-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/baladin.webp" alt="Baladin" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">Baladin</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Birre Artigianali</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            Birrificio agricolo piemontese dal 1996, Baladin produce birre artigianali con ingredienti 100% italiani, dalle materie prime coltivate direttamente nei propri campi all'acqua delle Alpi Marittime. Per Fradiavolo ha creato la <strong>IPA "Flippa"</strong>, una birra esclusiva pensata per accompagnare le nostre pizze: fresca, luppolata, che lascia il palato pulito e pronto per il morso successivo.
+          </p>
+        </div>
+
+        <!-- Olasagasti -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/tonno.webp" alt="Olasagasti" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">Olasagasti</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Tonno</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            Eccellenza basca dal 1899, Olasagasti seleziona tonno intero — mai frammentato — pescato nelle acque del Cantabrico e conservato in olio extravergine d'oliva biologico. Ogni pezzo è lavorato a mano, generazione dopo generazione. È il tonno che trovi nelle nostre insalate e nei piatti speciali: un ingrediente che non ha bisogno di essere nascosto, perché si fa riconoscere.
+          </p>
+        </div>
+
+        <!-- Lamb Weston -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/lma.webp" alt="Lamb Weston" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">Lamb Weston</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Patatine Fritte</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            Leader mondiale nelle patatine fritte, Lamb Weston garantisce un prodotto costante, croccante e dalla resa perfetta. Le nostre patatine non sono un contorno qualsiasi — sono uno degli antipasti più ordinati e uno strumento di cross-selling fondamentale. Proponile sempre.
+          </p>
+        </div>
+
+        <!-- La Sorrentina -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/sorrentina.webp" alt="La Sorrentina" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">La Sorrentina</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Mozzarella Fiordilatte</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            La mozzarella fiordilatte è il cuore di ogni nostra pizza. Latteria La Sorrentina la produce nella tradizione campana con latte 100% italiano, garantendo un prodotto fresco, filante e dal gusto delicato che si fonde perfettamente con i nostri impasti. È la base su cui costruiamo tutto il resto.
+          </p>
+        </div>
+
+        <!-- Raspini -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/raspini.webp" alt="Raspini" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">Raspini</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Salumi</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            Tutti i salumi delle nostre pizze sono Raspini. Il <strong>Prosciutto Cotto</strong> lo trovi nella Prosciutto Cotto, nella Capricciosa e nella Torna Pesto. La <strong>Spianata Piccante ricetta Fradiavolo</strong> è creata su misura per noi ed è l'ingrediente che dà carattere alla Fradiavolo e alla Fradiavolissima. Un unico fornitore, una qualità costante.
+          </p>
+        </div>
+
+        <!-- La Granda -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4 md:col-span-2">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/lagranda.webp" alt="La Granda" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">La Granda</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Salamino, Polpette &amp; Wurstel</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            La Granda è un'eccellenza piemontese che trasforma carni di razza bovina Piemontese allevata nel rispetto dell'animale e del territorio. Il <strong>Salamino Piccante La Granda</strong> è protagonista della Pepperoni e della Fradiavolissima. Le polpette e i wurstel arrivano dalla stessa filiera — ingredienti minimi, senza conservanti, gusto autentico.
+          </p>
+          <p class="font-roc text-black/60 text-sm leading-relaxed">
+            <strong class="text-black">Presidio Slow Food</strong>: significa che La Granda rispetta un disciplinare rigoroso su allevamento, alimentazione e benessere animale, certificato dalla fondazione Slow Food. Non è un marchio commerciale — è una garanzia di etica e qualità.
+          </p>
+        </div>
+
+        <!-- Sommariva -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/sommariva.webp" alt="Sommariva" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">Sommariva</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Olio EVO</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            L'olio extravergine d'oliva dell'Azienda Agricola Ligure Sommariva è l'olio che utilizziamo nelle nostre pizzerie. Un olio dal profumo delicato e dal gusto equilibrato, prodotto in Liguria seguendo metodi tradizionali. È l'ingrediente silenzioso che lega tutto insieme — e che il cliente nota quando c'è qualità.
+          </p>
+        </div>
+
+        <!-- Fontanafredda -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/fontanafredda.webp" alt="Fontanafredda" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">Fontanafredda</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Vini</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            Fondata nel 1858 nelle Langhe piemontesi, Fontanafredda è una delle cantine storiche d'Italia. Da Fradiavolo trovi il <strong>Nebbiolo</strong> e l'<strong>Alta Langa</strong> — due espressioni diverse dello stesso territorio, perfette per accompagnare le nostre pizze. Quando proponi un vino al tavolo, stai proponendo una storia che parte dalle colline del Piemonte.
+          </p>
+        </div>
+
+        <!-- Lavazza -->
+        <div class="border-b-2 border-r-0 md:border-r-2 border-black p-8 md:p-10 bg-fra-cream hover:bg-fra-yellow transition-colors duration-200 flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            <img src="img/fornitori/lavazza.webp" alt="Lavazza" class="w-32 h-32 object-contain shrink-0">
+            <div>
+              <p class="font-roc-compressed text-fra-red uppercase text-4xl md:text-5xl font-semibold leading-none">Lavazza</p>
+              <p class="font-roc-compressed text-black uppercase text-2xl md:text-3xl font-semibold leading-tight">Caffè</p>
+            </div>
+          </div>
+          <p class="font-roc text-black text-base leading-relaxed">
+            Il caffè che chiude l'esperienza Fradiavolo è Lavazza — eccellenza torinese dal 1895. Un espresso fatto bene è l'ultimo ricordo che il cliente porta con sé. Proponilo sempre a fine pasto, insieme a dolci e amari.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 1.4 I NOSTRI LOCALI -->
+    <section id="spazi" class="border-b-2 border-black bg-fra-red">
+
+      <!-- Testo full-width -->
+      <div class="px-6 md:px-14 py-16 md:py-24 flex flex-col gap-6">
+        <p class="font-roc-compressed text-fra-yellow uppercase text-2xl font-semibold">1.4</p>
+        <h3 class="font-roc-compressed uppercase text-fra-cream text-5xl md:text-7xl font-semibold leading-none">
+          I Nostri Locali
+        </h3>
+        <p class="font-roc text-fra-cream text-base md:text-xl leading-relaxed">
+          Una pizzeria Fradiavolo non è solo un posto dove si va a mangiare — è <strong class="text-fra-yellow">un luogo dove si sceglie di passare del tempo</strong>. Ogni locale è pensato per essere vissuto: un ambiente con personalità, dove sedersi e sentirsi a casa, dove tornare non solo per la pizza ma per come ci si sente dentro.
+        </p>
+        <p class="font-roc text-fra-cream text-base md:text-xl leading-relaxed">
+          L'interior design è guidato dal <strong class="text-fra-yellow">riuso creativo</strong>: arredi recuperati, insegne d'epoca, materiali reinterpretati che raccontano storie. Dylan Dog sulle pareti, pavimenti a chevron bicolore, armadi vintage, il neon "Eat Pizza, Make Love". Niente è scelto a caso — e niente è uguale a un altro locale.
+        </p>
+        <p class="font-roc text-fra-cream text-base md:text-xl leading-relaxed">
+          Eppure, ogni pizzeria Fradiavolo è immediatamente riconoscibile. <strong class="text-fra-yellow">Tutte diverse, tutte Fradiavolo</strong>: la stessa impronta, lo stesso approccio al riuso, la stessa cura per il dettaglio. Cambia la città, cambia l'arredamento, ma l'anima è sempre quella.
+        </p>
+        <div class="border-t-2 border-fra-cream/20 pt-6 mt-2">
+          <p class="font-roc-compressed text-fra-yellow uppercase text-2xl md:text-4xl font-semibold leading-tight">
+            "Nulla si butta, tutto si trasforma."
+          </p>
+        </div>
+      </div>
+
+      <!-- Galleria foto locali -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 border-t-2 border-black">
+        <!-- Photo 1 -->
+        <div class="aspect-square overflow-hidden border-r-2 border-b-2 border-black relative group">
+          <img src="img/locali/fradiavolo-vintage-details.jpg" alt="Dettagli vintage" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-end">
+            <p class="font-roc-compressed text-fra-cream uppercase text-lg font-semibold p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Dettagli vintage</p>
+          </div>
+        </div>
+        <!-- Photo 2 -->
+        <div class="aspect-square overflow-hidden border-r-2 border-b-2 border-black relative group">
+          <img src="img/locali/fradiavolo-citylife-atmosphere.jpg" alt="Milano Isola" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-end">
+            <p class="font-roc-compressed text-fra-cream uppercase text-lg font-semibold p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Milano Isola</p>
+          </div>
+        </div>
+        <!-- Photo 3 -->
+        <div class="aspect-square overflow-hidden border-r-2 border-b-2 border-black relative group">
+          <img src="img/locali/fradiavolo-isola-interior.jpg" alt="Milano Isola" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-end">
+            <p class="font-roc-compressed text-fra-cream uppercase text-lg font-semibold p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Milano Isola</p>
+          </div>
+        </div>
+        <!-- Photo 4 -->
+        <div class="aspect-square overflow-hidden border-r-2 border-b-2 border-black relative group">
+          <img src="img/locali/fradiavolo-alberto-chiariglione-096.jpg" alt="Torino" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-end">
+            <p class="font-roc-compressed text-fra-cream uppercase text-lg font-semibold p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Torino</p>
+          </div>
+        </div>
+        <!-- Photo 5 -->
+        <div class="aspect-square overflow-hidden border-r-2 border-b-2 border-black relative group">
+          <img src="img/locali/fradiavolo-alberto-chiariglione-131.jpg" alt="Torino" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-end">
+            <p class="font-roc-compressed text-fra-cream uppercase text-lg font-semibold p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Torino</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- MANIFESTO -->
+    <section class="border-b-2 border-black bg-fra-red px-6 py-24 md:py-40 text-center overflow-hidden relative">
+      <p class="font-roc-compressed text-fra-yellow uppercase text-2xl font-semibold mb-8 tracking-widest">Manifesto</p>
+
+      <div class="max-w-3xl mx-auto flex flex-col gap-6">
+        <p class="font-roc text-fra-cream text-lg md:text-xl leading-loose">
+          <span class="font-roc-compressed text-fra-yellow text-8xl font-semibold leading-none">F</span>
+          <span class="block mt-2">sta per</span>
+          <span class="font-roc-compressed text-fra-yellow text-3xl md:text-4xl font-semibold uppercase">
+            pizza, creatività, processo, sapori, coraggio,<br>rischio, amore, idee, cambiamento, stile.
+          </span>
+        </p>
+
+        <p class="font-roc text-fra-cream text-lg md:text-2xl leading-relaxed mt-6">
+          <span class="font-roc-compressed text-fra-yellow text-5xl font-semibold">F</span>
+          sta per <strong class="font-roc-compressed text-fra-cream text-2xl uppercase">Fradiavolo</strong>.
+          <br />E tiene insieme ciò che siamo, contrasti inclusi.
+        </p>
+
+        <p class="font-roc text-fra-cream/80 text-base md:text-lg leading-loose mt-4">
+          Anche quando non la leggi, la <strong class="text-fra-yellow font-roc-compressed text-xl uppercase">F</strong> è ovunque:
+          nei nostri arredi, nel <strong class="text-fra-cream">cornicione che non si butta</strong>,
+          nelle insegne che hanno avuto una vita prima di essere nostre,
+          e nelle nostre insegne a cui abbiamo dato una seconda vita,
+          e poi ancora, nell'<strong class="text-fra-yellow font-roc-compressed uppercase text-xl">Eat Pizza, Make Love</strong>.
+        </p>
+
+        <p class="font-roc text-fra-cream/70 text-base md:text-lg leading-loose">
+          Nel modo in cui abbiamo saputo <strong class="text-fra-cream">cambiare prospettiva</strong>,
+          restando fedeli ai sapori originali.
+        </p>
+
+        <p class="font-roc-compressed text-fra-cream uppercase text-5xl md:text-7xl font-semibold leading-tight mt-8">
+          F sta per tutto quello<br>che rende Fradiavolo,
+          <span class="text-fra-yellow">Fradiavolo</span>.
+        </p>
+      </div>
+
+      <!-- ticker -->
+      <div class="mt-20 flex overflow-hidden font-roc-compressed text-fra-cream/10 text-4xl uppercase border-t-2 border-fra-cream/20 pt-6 relative">
+        <div class="animate-marquee whitespace-nowrap">
+          <span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span>
+        </div>
+        <div class="absolute animate-marquee2 whitespace-nowrap">
+          <span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span><span class="mx-8">FRADIAVOLO</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
